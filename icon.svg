@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7b5cff"/>
+      <stop offset="0.5" stop-color="#c56cf0"/>
+      <stop offset="1" stop-color="#ff9ecd"/>
+    </linearGradient>
+    <clipPath id="globe"><circle cx="246" cy="272" r="150"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- glow -->
+  <circle cx="246" cy="272" r="172" fill="#fff0fb" opacity="0.35"/>
+
+  <!-- globe -->
+  <circle cx="246" cy="272" r="150" fill="#5ec8f2"/>
+  <g clip-path="url(#globe)" stroke="#3a2e5c" stroke-width="10" stroke-linejoin="round">
+    <path d="M110 190 C150 150 200 160 215 195 C230 230 190 250 200 285 C210 320 170 340 140 320 C110 300 90 240 110 190 Z" fill="#a8e6a1"/>
+    <path d="M270 150 C320 130 380 160 395 200 C405 230 360 240 330 230 C300 220 260 200 270 150 Z" fill="#ffe08a"/>
+    <path d="M290 260 C330 250 370 270 375 310 C380 360 340 400 305 395 C275 390 280 340 270 310 C262 285 270 265 290 260 Z" fill="#ffb3c7"/>
+    <path d="M185 360 C210 350 240 370 235 400 C230 425 190 430 175 410 C165 395 170 368 185 360 Z" fill="#c9b6ff"/>
+  </g>
+  <!-- shading -->
+  <path d="M246 122 A150 150 0 0 1 246 422 A190 190 0 0 0 246 122 Z" fill="#3a2e5c" opacity="0.12"/>
+  <circle cx="246" cy="272" r="150" fill="none" stroke="#3a2e5c" stroke-width="14"/>
+  <!-- wave squiggles -->
+  <path d="M215 330 q8 -8 16 0 t16 0" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- flight arc -->
+  <path d="M120 330 C130 190 260 110 392 112" fill="none" stroke="#3a2e5c" stroke-width="22" stroke-linecap="round"/>
+  <path d="M120 330 C130 190 260 110 392 112" fill="none" stroke="#ffcf3f" stroke-width="12" stroke-linecap="round" stroke-dasharray="26 18"/>
+  <circle cx="120" cy="330" r="16" fill="#ff3d8b" stroke="#3a2e5c" stroke-width="8"/>
+
+  <!-- plane -->
+  <g transform="translate(408 112) rotate(2)" stroke="#3a2e5c" stroke-width="8" stroke-linejoin="round">
+    <path d="M-38 0 C-38 -9 -30 -12 0 -12 L28 -12 C44 -12 52 -6 52 0 C52 6 44 12 28 12 L0 12 C-30 12 -38 9 -38 0 Z" fill="#fff"/>
+    <path d="M6 -10 L-14 -50 L4 -50 L30 -10 Z" fill="#ff3d8b"/>
+    <path d="M6 10 L-14 50 L4 50 L30 10 Z" fill="#ff3d8b"/>
+    <path d="M-30 -8 L-44 -26 L-34 -26 L-20 -8 Z" fill="#ff3d8b"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M420 330 l10 -26 l10 26 l26 10 l-26 10 l-10 26 l-10 -26 l-26 -10 Z" fill="#fff" stroke="#3a2e5c" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M90 92 l7 -18 l7 18 l18 7 l-18 7 l-7 18 l-7 -18 l-18 -7 Z" fill="#ffcf3f" stroke="#3a2e5c" stroke-width="5" stroke-linejoin="round"/>
+</svg>
